@@ -1,0 +1,26 @@
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#iron-router-progress {
+  background-color: #5b5;
+  box-shadow: 0 0 5px #5b5;
+}
+
+.wrapper {
+  width: 650px;
+  margin: 20px auto;
+}
+
+.content {
+  margin: 10px 27px auto 27px;
+}
+

@@ -1,0 +1,20 @@
+
+<template name="pagesList">
+  <div class="pages_list">
+    {{#each pages}}
+      <div class="page clearfix" data-page-id="{{_id}}">
+        <div class="page_name">{{name}}</div>
+
+        {{#with getAbility currentUser._id _id}}
+        <div class="abilities">
+          <div class="ability {{#if read}}read{{/if}}">READ</div>
+          <div class="ability {{#if write}}write{{/if}}">WRITE</div>
+          <div class="ability {{#if grant}}grant{{/if}}">GRANT</div>
+        </div>
+        {{/with}}
+
+      </div>
+    {{/each}}
+  </div>
+</template>
+

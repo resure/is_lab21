@@ -1,0 +1,12 @@
+
+<template name="usersList">
+  <div class="users_list">
+    {{#each users}}
+      <div class="user {{#if profile.admin}}user-admin{{/if}}">
+        <div class="username">{{ capitalize username }}</div>
+        <div class="name">{{ profile.name }}</div>
+      </div>
+    {{/each}}
+  </div>
+</template>
+

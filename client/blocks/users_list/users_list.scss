@@ -1,0 +1,21 @@
+
+.users_list {
+  .user {
+    margin-bottom: 15px;
+
+    .username {
+      font-size: 1.1em;
+    }
+
+    .name {
+      font-style: italic;
+      font-size: 0.9em;
+      color: #666;
+    }
+  }
+
+  .user-admin > .username {
+    color: #b44;
+  }
+}
+

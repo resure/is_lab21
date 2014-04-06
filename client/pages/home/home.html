@@ -1,0 +1,12 @@
+
+<template name="home">
+  <div class="home">
+    {{#unless currentUser}}
+      <h1>Welcome</h1>
+      <p>Please sign in to continue</p>
+    {{else}}
+      <p>Welcome back, {{capitalize currentUser.username}}</p>
+    {{/unless}}
+  </div>
+</template>
+

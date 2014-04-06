@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "scss": {},
+    "iron-router": {},
+    "iron-router-progress": {},
+    "iron-router-active": {}
+  }
+}

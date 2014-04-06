@@ -1,0 +1,16 @@
+
+<template name="navigation">
+  <div class="navigation clearfix">
+    <div class="navigation__links">
+      {{#if currentUser}}
+        <a href="{{pathFor 'home'}}"  class="{{ isActiveRoute 'home'}}">Home</a>
+        <a href="{{pathFor 'users'}}"  class="{{ isActiveRoute 'users'}}">Users</a>
+        <a href="{{pathFor 'pages'}}" class="{{ isActiveRoute 'page'}}">Pages</a>
+      {{/if}}
+    </div>
+      <div class="navigation__login">
+        {{> login align="right"}}
+      </div>
+  </div>
+</template>
+

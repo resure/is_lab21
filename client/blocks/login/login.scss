@@ -1,0 +1,27 @@
+
+.login {
+  margin-bottom: 20px;
+  margin-right: 7px;
+  text-align: right;
+
+  // Patching default account-ui behaviour, some ugly code :(
+
+  #login-name-link, #login-sign-in-link, #login-dropdown-list .login-close-text {
+    text-decoration: none;
+    border-bottom: 1px dashed #666;
+    padding-bottom: 2px;
+    font-size: 0.9em;
+    color: #666;
+    float: none;
+  }
+
+  #login-old-password-label-and-input, #login-buttons-open-change-password {
+    margin-top: 10px;
+  }
+}
+
+.login-admin #login-name-link {
+  color: #c44;
+  border-color: #c44;
+}
+

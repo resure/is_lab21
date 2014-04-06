@@ -1,0 +1,55 @@
+
+.pages_list {
+  
+  .page {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    padding-bottom: 15px;
+    margin: 10px 0px 10px 0px;
+
+    &:last-child {
+      border: none;
+    }
+
+    .page_name {
+      float: left;
+      padding-top: 3px;
+    }
+
+    .abilities {
+      float: right;
+
+      .ability {
+        border: 2px solid #000;
+        color: #000;
+        display: inline-block;
+        margin-left: 7px;
+        padding: 4px;
+        font-size: 0.8em;
+        font-weight: bold;
+        color: #ccc;
+        border-color: #ccc;
+      }
+
+      .read {
+        color: #000;
+        border-color: #000;
+      }
+
+      .write {
+        color: #44a;
+        border-color: #44a;
+      }
+
+      .grant {
+        color: #4a4;
+        border-color: #4a4;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
